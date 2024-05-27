@@ -6,10 +6,37 @@ function goBack() {
 // codigo para os popups
 
 // Função para abrir o popup
-function abrirPopupCriarChave() {
-  var popupDiv = document.getElementById('popup');
-  popupDiv.classList.add('show'); // Adiciona a classe 'show' para exibir o popup
+
+function abrirPopupContactos() {
+  document.getElementById('overlay').style.display = 'block';
+  document.getElementById('popup-contactos').style.display = 'block';
+  document.getElementById('popup').style.display = 'none';
 }
+
+function fecharPopupContactos() {
+  document.getElementById('overlay').style.display = 'none';
+  document.getElementById('popup-contactos').style.display = 'none';
+}
+
+function abrirPopupCriarChave() {
+  document.getElementById('popup').style.display = 'block';
+}
+
+function abrirPopupChaveEnviada() {
+  document.getElementById('popup-contactos').style.display = 'none';
+  document.getElementById('chave-enviada').style.display = 'block';
+
+  // Define um temporizador para fechar o popup após 3 segundos
+  setTimeout(function() {
+    document.getElementById('chave-enviada').style.display = 'none';
+    window.location.reload(); // Recarrega a página após 3 segundos
+  }, 3000); // 3000 milissegundos = 3 segundos
+}
+
+
+
+
+
 
 
 
