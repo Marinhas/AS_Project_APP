@@ -35,6 +35,46 @@ function abrirPopupChaveEnviada() {
 
 
 
+function abrirPopupScan() {
+  document.getElementById('popup-scan').style.display = 'block';
+}
+
+function fecharPopupScan() {
+  document.getElementById('popup-scan').style.display = 'none';
+}
+
+
+function adicionar() {
+  document.getElementById('popup-scan').style.display = 'none';
+  
+  var overlay = document.getElementById('overlay');
+  overlay.style.display = 'block'; // Exibe o overlay escurecido
+  
+  var componentPopup = document.querySelector('.component');
+  componentPopup.style.display = 'block'; // Exibe o popup "component"
+
+  // Aguarda 4 segundos antes de abrir o próximo popup
+  setTimeout(function() {
+    var overlay = document.getElementById('overlay');
+    overlay.style.display = 'none'; // Oculta o overlay
+
+    var componentPopup = document.querySelector('.component');
+    componentPopup.style.display = 'none'; // Oculta o popup "component"
+
+    // Exibe o próximo popup (substitua "popup-scan-conluida" pelo ID do próximo popup)
+    var nextPopup = document.querySelector('.popup-scan-conluida');
+    nextPopup.style.display = 'block';
+
+    // Aguarda mais 3 segundos e atualiza a página
+    setTimeout(function() {
+      window.location.reload();
+    }, 3000);
+  }, 4000); // 4 segundos de espera
+}
+
+
+
+
 
 
 

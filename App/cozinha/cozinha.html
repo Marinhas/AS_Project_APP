@@ -8,6 +8,36 @@
     <script src="../JS/scripts.js"></script>
   </head>
   <body>
+
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Popup adicionar dispositivo-->
+    <div class="popup-scan" id="popup-scan">
+      <p class="text-wrapper">Leia o código QR do dispositivo que deseja adicionar</p>
+      <div class="overlap-group">
+        <img class="m-quina-de-lavar" src="https://c.animaapp.com/mBTA9CBI/img/m-quina-de-lavar--1-1@2x.png" />
+        <div class="ellipse"></div>
+      </div>
+      <img class="image" src="https://c.animaapp.com/mBTA9CBI/img/image-19-1@2x.png" onclick="fecharPopupScan()"/>
+      <button class="round-button" onclick="adicionar()"></button>
+    </div>
+
+    <div class="component">
+      <div class="overlap-group">
+        <div class="rectangle"></div>
+        <img class="loader" src="https://c.animaapp.com/MVi47ZBx/img/loader-1-1.gif" />
+        <div class="text-wrapper">Verificando compatibilidade do dispositivo</div>
+      </div>
+    </div>
+
+    <div class="popup-scan-conluida">
+      <div class="overlap-group">
+        <img class="image" src="https://c.animaapp.com/L5sudHja/img/image-17-1@2x.png" />
+        <div class="text-wrapper">Dispositivo adicionado com sucesso!</div>
+      </div>
+    </div>
+
+
     <div class="iphone-pro-max">
       <div class="div">
         <div class="group">
@@ -26,7 +56,7 @@
             <div class="frame" style="overflow-y: auto; height: 270px;">
 
 
-              <div class="group-button">
+              <div class="group-button" onclick="window.location.href ='../Ar_condicionado/AC.html';">
                 <div class="div-2">
                   <div class="rectangle-2"></div>
                   <img class="lamp" src="https://c.animaapp.com/gBEVNls7/img/lamp-3@2x.png" />
@@ -38,7 +68,7 @@
                 </div>
               </div>
 
-              <div class="group-button">
+              <div class="group-button" onclick="window.location.href ='../maquina_de_lavar/maquina_lavar.html';">
                 <div class="div-2">
                   <div class="overlap-group-2">
                     <div class="overlap-group-3">
@@ -52,7 +82,7 @@
                   </div>
                 </div>
               </div>
-              <div class="group-button">
+              <div class="group-button" onclick="window.location.href ='../Ar_condicionado/AC.html';">
                 <div class="div-2">
                   <div class="rectangle-2"></div>
                   <img class="lamp" src="https://c.animaapp.com/gBEVNls7/img/lamp-3@2x.png" />
@@ -63,7 +93,7 @@
                   </div>
                 </div>
               </div>
-              <div class="group-button">
+              <div class="group-button" onclick="window.location.href ='../Ar_condicionado/AC.html';">
                 <div class="div-2">
                   <div class="overlap-group-2">
                     <div class="text-wrapper-3">A/C</div>
@@ -81,7 +111,7 @@
             
             <img class="subtract" src="https://c.animaapp.com/gBEVNls7/img/subtract@2x.png" />
             <div class="ellipse-2"></div>
-            <img class="scanner-button" src="https://c.animaapp.com/gBEVNls7/img/scanner---button@2x.png" />
+            <img class="scanner-button" src="https://c.animaapp.com/gBEVNls7/img/scanner---button@2x.png" onclick="abrirPopupScan()"/>
             <div class="group-5">
               <div class="frame-2">
                 <img class="img" src="https://c.animaapp.com/gBEVNls7/img/home---button@2x.png" onclick="window.location.href ='../Homepage/homepage.html';"/>
