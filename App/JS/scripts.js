@@ -22,6 +22,7 @@ function fecharPopupContactos() {
   document.getElementById('popup-contactos').style.display = 'none';
 }
 
+
 function abrirPopupCriarChave() {
 
   var overlay = document.getElementById('overlay');
@@ -29,6 +30,7 @@ function abrirPopupCriarChave() {
 
   document.getElementById('popup').style.display = 'block';
 }
+
 
 function abrirPopupChaveEnviada() {
   document.getElementById('popup-contactos').style.display = 'none';
@@ -46,11 +48,17 @@ function abrirPopupChaveEnviada() {
 function abrirPopupScan() {
   document.getElementById('popup-scan').style.display = 'block';
   var overlay = document.getElementById('overlay');
+
   overlay.style.display = 'block'; // Exibe o overlay escurecido
 }
 
+
 function fecharPopupScan() {
-  document.getElementById('popup-scan').style.display = 'none';
+  var popup = document.querySelector('.popup-scan');
+  var overlay = document.getElementById('overlay');
+  
+  popup.style.display = 'none';
+  overlay.style.display = 'none';
 }
 
 
@@ -65,8 +73,9 @@ function adicionar() {
 
   // Aguarda 4 segundos antes de abrir o próximo popup
   setTimeout(function() {
+    
     var overlay = document.getElementById('overlay');
-    overlay.style.display = 'none'; // Oculta o overlay
+    overlay.style.display = 'block'; // Exibe o overlay escurecido
 
     var componentPopup = document.querySelector('.component');
     componentPopup.style.display = 'none'; // Oculta o popup "component"
@@ -80,6 +89,7 @@ function adicionar() {
       window.location.reload();
     }, 3000);
   }, 4000); // 4 segundos de espera
+
 }
 
 
@@ -104,6 +114,7 @@ function notificarAdmin() {
   }, 3000); // 3000 milissegundos = 3 segundos
 }
 
+
 function mostrarPopupFugaDeAgua() {
   var popup = document.querySelector('.popup-fuga-de-agua');
   var overlay = document.getElementById('overlay');
@@ -112,6 +123,7 @@ function mostrarPopupFugaDeAgua() {
   overlay.style.display = 'block';
 }
 
+
 function fecharPopupFugaDeAgua() {
   var popup = document.querySelector('.popup-fuga-de-agua');
   var overlay = document.getElementById('overlay');
@@ -119,6 +131,7 @@ function fecharPopupFugaDeAgua() {
   popup.style.display = 'none';
   overlay.style.display = 'none';
 }
+
 
 function mostrarPopupConclus() {
   var popupConclus = document.querySelector('.popup-conclus');
@@ -132,6 +145,52 @@ function mostrarPopupConclus() {
     overlay.style.display = 'none';
   }, 3000); // 3000 milissegundos = 3 segundos
 }
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const overlay = document.getElementById('overlay');
+  const popup = document.getElementById('popup-confirmao-do');
+  const voltarButton = document.getElementById('voltar-button');
+  const colocarLavarButton = document.getElementById('colocar-lavar-button');
+
+  function selectProg() {
+    overlay.style.display = 'block';
+    popup.style.display = 'block';
+  }
+
+  function hidePopup() {
+    overlay.style.display = 'none';
+    popup.style.display = 'none';
+  }
+
+  function colocarLavar() {
+    window.location.href = '../maquina_de_lavar/maquina_lavar.html';
+  }
+
+  voltarButton.addEventListener('click', hidePopup);
+  colocarLavarButton.addEventListener('click', colocarLavar);
+
+  window.selectProg = selectProg;
+});
+
+function mostrarPopupFugaDeGas() {
+  var popup = document.querySelector('.popup-fuga-de-gas');
+  var overlay = document.getElementById('overlay');
+  
+  popup.style.display = 'block';
+  overlay.style.display = 'block';
+}
+
+function fecharPopupFugaDeGas() {
+  var popup = document.querySelector('.popup-fuga-de-gas');
+  var overlay = document.getElementById('overlay');
+  
+  popup.style.display = 'none';
+  overlay.style.display = 'none';
+}
+
+
+
 
 
 

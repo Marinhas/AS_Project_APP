@@ -8,6 +8,27 @@
     <script src="../JS/scripts.js"></script>
   </head>
   <body>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="popup-fuga-de-gas">
+      <div class="overlap">
+        <div class="rectangle"></div>
+        <div class="fuga-de-g-s">Fuga de gás <br />resolvida!</div>
+        <p class="text-wrapper">
+          A sua fuga de gás foi resolvida com sucesso no dia 2 de Maio de 2024, 26 minutos após chamar o profissional
+          especializado
+        </p>
+        <div class="group">
+          <div class="overlap-group" style="cursor: pointer;" onclick="fecharPopupFugaDeGas()">
+            <img class="img" src="https://c.animaapp.com/dDX2pQNn/img/rectangle-22-1@2x.png" />
+            <div class="div">Fechar</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
     <div class="anomalias-resolvidas">
       <div class="div">
         <div class="group">
@@ -51,7 +72,7 @@
             class="check-box"
             src="https://c.animaapp.com/Sb3KDmCN/img/check-box-24dp-fill0-wght400-grad0-opsz24--1--1@2x.png"
           />
-          <div class="overlap-wrapper">
+          <div class="overlap-wrapper" onclick="mostrarPopupFugaDeGas()">
             <div class="overlap-group"><div class="text-wrapper-4">Ver detalhes</div></div>
           </div>
         </div>

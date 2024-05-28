@@ -687,7 +687,7 @@ scan */
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Aqui você pode ajustar a opacidade do escurecimento */
+  background-color: rgba(0, 0, 0, 0.8); /* Aqui você pode ajustar a opacidade do escurecimento */
   z-index: 998; /* Garante que o overlay esteja abaixo do popup */
   display: none; /* Inicialmente oculto */
 }
