@@ -638,7 +638,8 @@
   font-family: Inter;
 }
 
-/* Overlay */
+
+
 .overlay {
   display: none; /* Inicialmente oculta o overlay */
   position: fixed; /* Fixa o overlay na janela de visualização */
@@ -646,9 +647,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-  z-index: 1000; /* Coloca o overlay abaixo do popup de contatos */
+  background-color: rgba(0, 0, 0, 0.8); /* Fundo semitransparente */
+  z-index: 1000; /* Coloca o overlay abaixo do popup */
 }
+
+
 
 /* Popup de contatos */
 .popup-escolher {
@@ -781,17 +784,6 @@
 
 /* popup chave enviada*/
 /* Estilos para o overlay */
-.overlay {
-  display: none; /* Inicialmente oculta o overlay */
-  position: fixed; /* Fixa o overlay na janela de visualização */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-  z-index: 1000; /* Coloca o overlay abaixo do popup */
-}
-
 /* Popup de conclusão */
 .popup-conclus-criao {
   display: none; /* Inicialmente oculta o popup */

@@ -124,6 +124,7 @@
 }
 
 .home-page .mask-group {
+  cursor: pointer;
   position: absolute;
   width: 60px;
   height: 60px;
@@ -176,6 +177,7 @@
 }
 
 .home-page .overlap-group-2 {
+  cursor: pointer;
   position: relative;
   width: 395px;
   height: 183px;
@@ -506,6 +508,7 @@
 }
 
 .home-page .rectangle-2 {
+  cursor: pointer;
   position: absolute;
   width: 73px;
   height: 85px;
@@ -520,6 +523,7 @@
 }
 
 .home-page .rectangle-3 {
+  cursor: pointer;
   position: absolute;
   width: 73px;
   height: 85px;
@@ -532,6 +536,7 @@
 }
 
 .home-page .rectangle-4 {
+  cursor: pointer;
   position: absolute;
   width: 73px;
   height: 85px;
@@ -546,6 +551,7 @@
 }
 
 .home-page .image-button {
+  cursor: pointer;
   position: absolute;
   width: 63px;
   height: 63px;
@@ -555,6 +561,7 @@
 }
 
 .home-page .image-button-2 {
+  cursor: pointer;
   position: absolute;
   width: 62px;
   height: 62px;
@@ -564,6 +571,7 @@
 }
 
 .home-page .image-button-3 {
+  cursor: pointer;
   position: absolute;
   width: 68px;
   height: 68px;

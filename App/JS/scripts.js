@@ -8,9 +8,13 @@ function goBack() {
 // Função para abrir o popup
 
 function abrirPopupContactos() {
+
+  document.getElementById('overlay').style.display = 'none';
+  document.getElementById('popup').style.display = 'none';
+
   document.getElementById('overlay').style.display = 'block';
   document.getElementById('popup-contactos').style.display = 'block';
-  document.getElementById('popup').style.display = 'none';
+  
 }
 
 function fecharPopupContactos() {
@@ -19,6 +23,10 @@ function fecharPopupContactos() {
 }
 
 function abrirPopupCriarChave() {
+
+  var overlay = document.getElementById('overlay');
+  overlay.style.display = 'block'; // Exibe o overlay escurecido
+
   document.getElementById('popup').style.display = 'block';
 }
 
@@ -37,6 +45,8 @@ function abrirPopupChaveEnviada() {
 
 function abrirPopupScan() {
   document.getElementById('popup-scan').style.display = 'block';
+  var overlay = document.getElementById('overlay');
+  overlay.style.display = 'block'; // Exibe o overlay escurecido
 }
 
 function fecharPopupScan() {
@@ -74,8 +84,54 @@ function adicionar() {
 
 
 
+function notificarAdmin() {
 
+  var popup = document.querySelector('.popup-fuga-de-agua');
+  var overlay = document.getElementById('overlay');
+  
+  popup.style.display = 'none';
+  overlay.style.display = 'none';
 
+  var popupComponent = document.querySelector('.component');
+  var overlay = document.getElementById('overlay');
+  
+  popupComponent.style.display = 'block';
+  overlay.style.display = 'block';
+
+  setTimeout(function() {
+    popupComponent.style.display = 'none';
+    overlay.style.display = 'none';
+  }, 3000); // 3000 milissegundos = 3 segundos
+}
+
+function mostrarPopupFugaDeAgua() {
+  var popup = document.querySelector('.popup-fuga-de-agua');
+  var overlay = document.getElementById('overlay');
+  
+  popup.style.display = 'block';
+  overlay.style.display = 'block';
+}
+
+function fecharPopupFugaDeAgua() {
+  var popup = document.querySelector('.popup-fuga-de-agua');
+  var overlay = document.getElementById('overlay');
+  
+  popup.style.display = 'none';
+  overlay.style.display = 'none';
+}
+
+function mostrarPopupConclus() {
+  var popupConclus = document.querySelector('.popup-conclus');
+  var overlay = document.getElementById('overlay');
+  
+  popupConclus.style.display = 'block';
+  overlay.style.display = 'block';
+
+  setTimeout(function() {
+    popupConclus.style.display = 'none';
+    overlay.style.display = 'none';
+  }, 3000); // 3000 milissegundos = 3 segundos
+}
 
 
 

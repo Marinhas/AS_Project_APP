@@ -641,3 +641,242 @@
   top: 73px;
   left: 19px;
 }
+
+
+
+
+
+
+/* syte popups 
+
+scan */
+
+/* Estilo para o botão redondo */
+.round-button {
+  position: absolute;
+  bottom: 20px; /* Ajusta a distância do botão a partir da parte inferior */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translateX(-50%);
+  width: 60px; /* Ajusta o tamanho do botão */
+  height: 60px; /* Ajusta o tamanho do botão */
+  background-color: #ffffff;
+  border-radius: 50%; /* Torna o botão circular */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.round-button:hover {
+  background-color: #b2b2b2;
+}
+
+/* Estilo para o ícone do botão (opcional) */
+.round-button::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px; /* Ajusta o tamanho do texto */
+  color: #333; /* Ajusta a cor do texto */
+}
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Aqui você pode ajustar a opacidade do escurecimento */
+  z-index: 998; /* Garante que o overlay esteja abaixo do popup */
+  display: none; /* Inicialmente oculto */
+}
+
+/* Quando o popup está aberto, exibe o overlay */
+.popup-scan.show + .overlay {
+  display: block;
+}
+
+
+.popup-scan {
+  position: fixed; /* Alterado para position: fixed */
+  top: 50%; /* Adicionado para centralizar verticalmente */
+  left: 50%; /* Adicionado para centralizar horizontalmente */
+  transform: translate(-50%, -50%); /* Adicionado para centralizar */
+  z-index: 999; /* Adicionado para garantir que esteja sempre acima de outros elementos */
+  width: 424px;
+  height: 695px;
+  background-image: url(https://c.animaapp.com/mBTA9CBI/img/rectangle-30-1.png);
+  background-size: 100% 100%;
+  display: none; /* Adicionado para esconder o popup por padrão */
+}
+
+.popup-scan .text-wrapper {
+  position: absolute;
+  width: 357px;
+  top: 17px;
+  left: 30px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 35px;
+}
+
+.popup-scan .overlap-group {
+  position: absolute;
+  width: 410px;
+  height: 561px;
+  top: 127px;
+  left: 7px;
+  background-image: url(https://c.animaapp.com/mBTA9CBI/img/qr-code-scan-on-iphone-controlcenter-1-1024x620-1-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.popup-scan .m-quina-de-lavar {
+  position: absolute;
+  width: 313px;
+  height: 313px;
+  top: 16px;
+  left: 49px;
+  object-fit: cover;
+}
+
+.popup-scan .ellipse {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 492px;
+  left: 180px;
+  background-color: #ffffff;
+  border-radius: 25.5px;
+}
+
+.popup-scan .image {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 2px;
+  left: 397px;
+  object-fit: cover;
+}
+
+.popup-scan.show {
+  display: block; /* Adicionado para mostrar o popup quando a classe "show" for adicionada */
+}
+
+/* Seu CSS existente */
+
+
+
+
+/* verificação */
+
+
+
+.component {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 427px;
+  border-radius: 10px;
+  z-index: 999; /* Garante que o popup esteja acima do overlay */
+  display: none; /* Inicialmente oculto */
+}
+
+.component .overlap-group {
+  position: relative;
+  height: 427px;
+}
+
+.component .rectangle {
+  position: absolute;
+  width: 289px;
+  height: 314px;
+  top: 113px;
+  left: 6px;
+  background-color: #0d122c;
+  border-radius: 17px;
+}
+
+.component .loader {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.component .text-wrapper {
+  position: absolute;
+  width: 254px;
+  top: 287px;
+  left: 23px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 31px;
+}
+
+
+/* dispositivo adicionado */
+.popup-scan-conluida {
+  position: fixed; /* Alterado para posição fixa para garantir que ele apareça sobreposto */
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Centraliza completamente */
+  z-index: 1000; /* Define uma ordem de empilhamento para garantir que esteja sobre todos os outros elementos */
+  width: 265px;
+  height: 292px;
+}
+
+.popup-scan-conluida .overlap-group {
+  position: relative;
+  width: 289px;
+  height: 314px;
+  background-color: #0d122c;
+  border-radius: 17px;
+}
+
+.popup-scan-conluida .image {
+  position: absolute;
+  width: 112px;
+  height: 133px;
+  top: 27px;
+  left: 88px;
+  object-fit: cover;
+}
+
+.popup-scan-conluida .text-wrapper {
+  position: absolute;
+  width: 254px;
+  top: 174px;
+  left: 17px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 31px;
+}
+
+/* Mantenha o CSS existente para o último popup, mas adicione a propriedade display: none; para ocultá-lo inicialmente */
+
+.popup-scan-conluida {
+  display: none; /* Oculta o popup inicialmente */
+  /* Restante do CSS */
+}
+
+
