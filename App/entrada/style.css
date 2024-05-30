@@ -362,12 +362,12 @@
   height: 197px;
   top: 40%;
   left: 27%;
-  z-index: 1; /* Adicionando z-index para colocar à frente do blur */
 }
 
 
+
 .iphone-pro-max .overlap-group-2 {
-  position: relative;
+  position: absolute;
   width: 235px;
   height: 197px;
 }
@@ -375,8 +375,9 @@
 .iphone-pro-max .text-wrapper-3 {
   position: absolute;
   width: 235px;
-  top: 0;
-  left: 0;
+  top: 120px;
+  left: -92px; /* Ajuste a posição horizontal conforme necessário */
+  transform: translateY(-50%); /* Centraliza verticalmente */
   font-family: "Inter", Helvetica;
   font-weight: 600;
   color: #ffffff;
@@ -385,13 +386,14 @@
   line-height: 21px;
 }
 
+
 .iphone-pro-max .ellipse-2 {
   position: absolute;
   width: 16px;
   height: 16px;
-  top: 5px;
-  left: 110px;
-  background-color: #08ff5c;
+  top: 113px;
+  left: 40px;
+  background-color: #ff0000;
   border-radius: 8px;
 }
 

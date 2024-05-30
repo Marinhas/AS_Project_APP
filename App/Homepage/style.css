@@ -450,16 +450,18 @@
   font-size: 30px;
   letter-spacing: -0.32px;
   line-height: 21px;
+  z-index: 1;
 }
 
 .home-page .ellipse-2 {
   position: absolute;
   width: 16px;
   height: 17px;
-  top: 5px;
-  left: 113px;
-  background-color: #08ff5c;
+  top: 4px;
+  left: 130px;
+  background-color: #ff0000;
   border-radius: 8.23px/8.56px;
+  z-index: 1;
 }
 
 .home-page .loocker-porto {
@@ -495,6 +497,7 @@
   font-size: 30px;
   letter-spacing: -0.32px;
   line-height: 21px;
+  z-index: 1;
 }
 
 .home-page .ellipse-3 {
@@ -505,6 +508,7 @@
   left: 110px;
   background-color: #08ff5c;
   border-radius: 8px;
+  z-index: 1;
 }
 
 .home-page .rectangle-2 {
