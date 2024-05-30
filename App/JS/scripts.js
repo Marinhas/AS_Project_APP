@@ -190,6 +190,37 @@ function fecharPopupFugaDeGas() {
 }
 
 
+function mostrarPopupSuporte() {
+  var popupConclus = document.querySelector('.popup-suporte');
+  var overlay = document.getElementById('overlay');
+  var textarea = document.querySelector('.rectangle-2');
+  var alert = document.getElementById("error-message");
+
+  if(textarea.value === ""){
+    alert.innerText = "Por favor escreva uma mensagem.";
+    document.getElementById("error-message").style.display = "block";
+    textarea.disabled = true;
+
+    setTimeout(function() {
+      alert.style.display = 'none';
+      overlay.style.display = 'none';
+      textarea.disabled = false;
+    }, 3000); // 4000 milissegundos = 4 segundos
+
+  } else {
+    popupConclus.style.display = 'block';
+    overlay.style.display = 'block';
+
+    textarea.value = ''; // Limpar a caixa de texto
+
+    setTimeout(function() {
+      popupConclus.style.display = 'none';
+      overlay.style.display = 'none';
+    }, 4000); // 4000 milissegundos = 4 segundos
+  }
+  
+
+}
 
 
 

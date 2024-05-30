@@ -828,5 +828,41 @@
   text-align: center;
   letter-spacing: -0.32px;
   line-height: 31px;
+
 }
+
+
+
+
+
+.popup-alerta {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 0, 0, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1001; /* Certifique-se de que está acima do overlay */
+}
+
+.alerta-mensagem {
+  font-size: 16px;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Certifique-se de que está abaixo do popup-alerta */
+  display: none;
+}
+
 
