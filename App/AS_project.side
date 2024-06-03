@@ -1,0 +1,891 @@
+{
+  "id": "cc1aa0b4-e902-47ec-9210-2acd27d11c0f",
+  "version": "2.0",
+  "name": "AS_project",
+  "url": "http://127.0.0.1:5500/App/Homepage/homepage.html",
+  "tests": [{
+    "id": "274c2074-cc14-4787-9467-292799bb8a6d",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "c2822457-0eb1-47cd-b379-b84de9501b87",
+    "name": "Adicionar_maquina_lavar",
+    "commands": [{
+      "id": "8c2a9f5b-e37c-4068-93ea-b82343fbf1e2",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/App/login/login.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe0d9f25-8f27-484c-b166-781edc06c787",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1319x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ef8962e-6781-4268-ac8e-186ef98a30c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.email-form-input",
+      "targets": [
+        ["css=.email-form-input", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66769e1e-8a34-471d-8e18-181077dd89eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.email-form-input",
+      "targets": [
+        ["css=.email-form-input", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b67813-a27e-4196-b086-1dc9946063ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.email-form-input",
+      "targets": [
+        ["css=.email-form-input", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e18db787-1dc3-401a-9df8-4b52696bb994",
+      "comment": "",
+      "command": "click",
+      "target": "css=.email-form-input > .text-wrapper-3",
+      "targets": [
+        ["css=.email-form-input > .text-wrapper-3", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Email')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee0913da-f04d-4914-8bd7-374d24c57e98",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26d4951-1182-4a29-aa26-08483b2e0fe5",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abb008e2-684d-436c-9ba0-fe00f4fb9eb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f9eee51-5ff2-4c73-8ea6-5f52976cc835",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "martarepolho233@gmail.com"
+    }, {
+      "id": "f15ad917-53aa-496e-9142-7244bd302cfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.password-form-input",
+      "targets": [
+        ["css=.password-form-input", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36256478-edd2-4159-8a1c-96e64b071ceb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.password-form-input",
+      "targets": [
+        ["css=.password-form-input", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fff00bab-1c36-49b3-8749-84c14c2d2cfb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.password-form-input",
+      "targets": [
+        ["css=.password-form-input", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "874b8be1-fba2-44e9-85fd-f2d6a0533ca8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.password-form-input",
+      "targets": [
+        ["css=.password-form-input", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6410b4cb-420a-4ab8-bccf-279d0008c4a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.password-form-input",
+      "targets": [
+        ["css=.password-form-input", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da06219a-772b-4b46-8954-8ade60f64d84",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.password-form-input",
+      "targets": [
+        ["css=.password-form-input", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09530fe5-7a71-4d07-b8c8-d692ab1b7462",
+      "comment": "",
+      "command": "click",
+      "target": "css=.password-form-input",
+      "targets": [
+        ["css=.password-form-input", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07bf8a73-1fb1-4ad6-90f9-6fa22a06bd07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rectangle",
+      "targets": [
+        ["css=.rectangle", "css:finder"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7986a95-37f9-4bea-b570-ccad5f434497",
+      "comment": "",
+      "command": "click",
+      "target": "css=.password-form-input > .text-wrapper-3",
+      "targets": [
+        ["css=.password-form-input > .text-wrapper-3", "css:finder"],
+        ["xpath=//div[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1e5f693-bf78-47e5-9000-7a236fe7f47e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "martarepolho233"
+    }, {
+      "id": "775bc0f0-3d06-4d2e-aa3a-cf50f580149f",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81d25848-5a34-4d79-9301-8d263e01f5a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db14cada-33bf-4687-8024-1f302161f216",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a22afab5-9f71-478f-adad-e712fc568c61",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6498186d-d5c1-4e5e-b67f-c9db0f9f19cc",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "martinha233"
+    }, {
+      "id": "9f7df82b-20c2-4322-af57-be1f86188329",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "883165b3-c418-4a1d-8196-8adfa7254860",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dcd5b8f-5898-4e37-b577-4d65c92629fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.overlap-group-2:nth-child(2) > .img",
+      "targets": [
+        ["css=.overlap-group-2:nth-child(2) > .img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/C2GzRNbM/img/rectangle-13-1@2x.png')]", "xpath:img"],
+        ["xpath=//div[2]/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ebe2fe7-36c0-42e2-9f95-ffc477e256f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.scanner-button",
+      "targets": [
+        ["css=.scanner-button", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/gBEVNls7/img/scanner---button@2x.png')]", "xpath:img"],
+        ["xpath=//img[@onclick='abrirPopupScan()']", "xpath:attributes"],
+        ["xpath=//div[2]/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd885c69-34b2-446a-a617-bb5a3e9b9b23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.round-button",
+      "targets": [
+        ["css=.round-button", "css:finder"],
+        ["xpath=//button[@onclick='adicionar()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup-scan']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf659d61-3914-4103-af5b-7b5ecf8e512e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.overlap-group-3",
+      "targets": [
+        ["css=.overlap-group-3", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d1f302c-5066-45a8-90a5-789a720bad55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.frame-button",
+      "targets": [
+        ["css=.frame-button", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/9fG3ej7i/img/frame-9---button-1@2x.png')]", "xpath:img"],
+        ["xpath=//img[@onclick='goBack()']", "xpath:attributes"],
+        ["xpath=//div[5]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5359e130-16a9-4efa-accb-e017119476d3",
+    "name": "Colocar_duvida_administrador",
+    "commands": [{
+      "id": "92cf8d3a-b655-4660-9c12-c3bf4db073e9",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/App/Homepage/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "579362ac-3afc-45ce-9a03-7d4336368e67",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4a5a627-7836-4948-85d3-f1f89b55f614",
+      "comment": "",
+      "command": "click",
+      "target": "css=.frame-4 > .img-2:nth-child(2)",
+      "targets": [
+        ["css=.frame-4 > .img-2:nth-child(2)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/C2GzRNbM/img/responsive@2x.png')]", "xpath:img"],
+        ["xpath=//img[@onclick=\"window.location.href ='../suporte/index.html';\"]", "xpath:attributes"],
+        ["xpath=//div[3]/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19b878c2-2f9c-41a7-ae76-d35e199a6b7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rectangle-2",
+      "targets": [
+        ["css=.rectangle-2", "css:finder"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6186f1ef-ce91-43e7-a4c6-f3507f9f6c2f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.rectangle-2",
+      "targets": [
+        ["css=.rectangle-2", "css:finder"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Boa tarde, tenho uma duvida em relaçao aos custos deste mes"
+    }, {
+      "id": "87dc7a5d-c198-4f08-ae8b-4756dfeb49e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-wrapper",
+      "targets": [
+        ["css=.text-wrapper", "css:finder"],
+        ["xpath=//div[2]/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e686cf4f-9db2-470f-a549-1ecc5f653932",
+    "name": "enviar_chave_de_acesso",
+    "commands": [{
+      "id": "bf93742d-63cd-4638-91ac-68b0fdc173e8",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/App/Homepage/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40e1572c-8c16-46de-b305-28f3fff3dbe5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5da469a-6cb7-4d48-ba45-8b6ac3f8d8cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.overlap-3",
+      "targets": [
+        ["css=.overlap-3", "css:finder"],
+        ["xpath=//div[@onclick=\"window.location.href ='../portao/portao.html';\"]", "xpath:attributes"],
+        ["xpath=//body/div/div/div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c63aae4-013a-442b-96df-99be152b1dac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button",
+      "targets": [
+        ["css=.partilhar-button", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupCriarChave()']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar uma chave')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "057c361b-daf7-47e0-9c13-b0be22880c92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button-2",
+      "targets": [
+        ["css=.partilhar-button-2", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupContactos()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Partilhar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "257b6790-50a4-4801-a46b-6f10201b2115",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ellipse:nth-child(1)",
+      "targets": [
+        ["css=.ellipse:nth-child(1)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/umHe6IDu/img/ellipse-40-4@2x.png')]", "xpath:img"],
+        ["xpath=//img[@onclick='abrirPopupChaveEnviada()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup-contactos']/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30e4e6a2-6898-4d34-ade6-c1c97566ed54",
+      "comment": "",
+      "command": "click",
+      "target": "id=overlay",
+      "targets": [
+        ["id=overlay", "id"],
+        ["css=#overlay", "css:finder"],
+        ["xpath=//div[@id='overlay']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea16539e-088a-4b42-a079-4c4be4368184",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button",
+      "targets": [
+        ["css=.partilhar-button", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupCriarChave()']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar uma chave')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84841b3f-d5f0-4c90-a1cb-800b64a27b9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button-2",
+      "targets": [
+        ["css=.partilhar-button-2", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupContactos()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Partilhar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "047126b8-7e77-428f-a50a-b807b3a102ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.div > .img",
+      "targets": [
+        ["css=.div > .img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/umHe6IDu/img/ellipse-40-5@2x.png')]", "xpath:img"],
+        ["xpath=(//img[@onclick='abrirPopupChaveEnviada()'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='popup-contactos']/div/div[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f0c7b9-492d-43d7-83c3-eb97fdd7c8ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button",
+      "targets": [
+        ["css=.partilhar-button", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupCriarChave()']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar uma chave')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc00f5e7-98f9-4100-87d9-b00bb3fe9e53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button-2",
+      "targets": [
+        ["css=.partilhar-button-2", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupContactos()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Partilhar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9192783a-e09b-4a31-9b6a-b1406746edd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.perfil-2 > .img",
+      "targets": [
+        ["css=.perfil-2 > .img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/umHe6IDu/img/ellipse-40-6@2x.png')]", "xpath:img"],
+        ["xpath=(//img[@onclick='abrirPopupChaveEnviada()'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='popup-contactos']/div/div[4]/img", "xpath:idRelative"],
+        ["xpath=//div[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98d5f195-c95f-497b-8814-1ddcabca5089",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button",
+      "targets": [
+        ["css=.partilhar-button", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupCriarChave()']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar uma chave')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "764fcfdf-51a4-4d50-9f39-8ff8177b83ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button-2",
+      "targets": [
+        ["css=.partilhar-button-2", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupContactos()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Partilhar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b574630c-d327-4fcf-8d19-7c066dc5347e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.perfil-3 > .img",
+      "targets": [
+        ["css=.perfil-3 > .img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/umHe6IDu/img/ellipse-40-7@2x.png')]", "xpath:img"],
+        ["xpath=(//img[@onclick='abrirPopupChaveEnviada()'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='popup-contactos']/div/div[5]/img", "xpath:idRelative"],
+        ["xpath=//div[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7a495f5-f29b-45d5-aa43-56bf46c42c67",
+      "comment": "",
+      "command": "click",
+      "target": "id=overlay",
+      "targets": [
+        ["id=overlay", "id"],
+        ["css=#overlay", "css:finder"],
+        ["xpath=//div[@id='overlay']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "552d61d9-79cf-4562-8dcc-89f5d62717db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.frame-5",
+      "targets": [
+        ["css=.frame-5", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/yksYBIPQ/img/frame-9@2x.png')]", "xpath:img"],
+        ["xpath=//img[@onclick='goBack()']", "xpath:attributes"],
+        ["xpath=//div[5]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44325844-f7af-403d-9923-08042cf68916",
+      "comment": "",
+      "command": "click",
+      "target": "css=.image-4",
+      "targets": [
+        ["css=.image-4", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/C2GzRNbM/img/image-4@2x.png')]", "xpath:img"],
+        ["xpath=//div[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e772776b-c1f2-4fff-ae63-335b506db634",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button",
+      "targets": [
+        ["css=.partilhar-button", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupCriarChave()']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar uma chave')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0dc55a0-4b92-408d-9772-b7590b94a213",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button-2",
+      "targets": [
+        ["css=.partilhar-button-2", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupContactos()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Partilhar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "798d3dd8-37b6-4095-a73b-c33487a18d91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ellipse:nth-child(1)",
+      "targets": [
+        ["css=.ellipse:nth-child(1)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/umHe6IDu/img/ellipse-40-4@2x.png')]", "xpath:img"],
+        ["xpath=//img[@onclick='abrirPopupChaveEnviada()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup-contactos']/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e068be3d-9e7f-48f1-a8d0-97f14fe95893",
+      "comment": "",
+      "command": "click",
+      "target": "id=overlay",
+      "targets": [
+        ["id=overlay", "id"],
+        ["css=#overlay", "css:finder"],
+        ["xpath=//div[@id='overlay']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f2438e5-26d8-43ea-945a-f6fc9571373e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button",
+      "targets": [
+        ["css=.partilhar-button", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupCriarChave()']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar uma chave')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c09f67ac-cda5-42e9-9ef6-5d215f285b3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button-2",
+      "targets": [
+        ["css=.partilhar-button-2", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupContactos()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Partilhar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51f40eb3-c241-42fa-b010-0331169c3852",
+      "comment": "",
+      "command": "click",
+      "target": "css=.div:nth-child(3)",
+      "targets": [
+        ["css=.div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='popup-contactos']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0932c8ae-711c-41ec-abf4-4fd9e592010d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.div > .img",
+      "targets": [
+        ["css=.div > .img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/umHe6IDu/img/ellipse-40-5@2x.png')]", "xpath:img"],
+        ["xpath=(//img[@onclick='abrirPopupChaveEnviada()'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='popup-contactos']/div/div[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "787cd9f3-20e7-4710-b4b9-cfb1bf70fade",
+      "comment": "",
+      "command": "click",
+      "target": "id=overlay",
+      "targets": [
+        ["id=overlay", "id"],
+        ["css=#overlay", "css:finder"],
+        ["xpath=//div[@id='overlay']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad0d11de-4527-4646-85d2-2cea9d8fb12b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button",
+      "targets": [
+        ["css=.partilhar-button", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupCriarChave()']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar uma chave')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35449e83-b679-4753-8317-42bed49cef5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button-2",
+      "targets": [
+        ["css=.partilhar-button-2", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupContactos()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Partilhar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5cabd39-fdfb-4bb3-ba9b-23ee809a107c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.perfil-2 > .img",
+      "targets": [
+        ["css=.perfil-2 > .img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/umHe6IDu/img/ellipse-40-6@2x.png')]", "xpath:img"],
+        ["xpath=(//img[@onclick='abrirPopupChaveEnviada()'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='popup-contactos']/div/div[4]/img", "xpath:idRelative"],
+        ["xpath=//div[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19d2195e-c1ff-4a8b-8d96-dbb8952b821a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.overlap .rectangle",
+      "targets": [
+        ["css=.overlap .rectangle", "css:finder"],
+        ["xpath=//div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e094788-0207-44dd-b513-ce97173ab3ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button",
+      "targets": [
+        ["css=.partilhar-button", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupCriarChave()']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar uma chave')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21a5793a-9ca5-4be5-9002-ef03c8f4084e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.partilhar-button-2",
+      "targets": [
+        ["css=.partilhar-button-2", "css:finder"],
+        ["xpath=//button[@onclick='abrirPopupContactos()']", "xpath:attributes"],
+        ["xpath=//div[@id='popup']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Partilhar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d6850dd-e9ab-4495-bb8b-180b69c9cb32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.perfil-3 > .img",
+      "targets": [
+        ["css=.perfil-3 > .img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/umHe6IDu/img/ellipse-40-7@2x.png')]", "xpath:img"],
+        ["xpath=(//img[@onclick='abrirPopupChaveEnviada()'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='popup-contactos']/div/div[5]/img", "xpath:idRelative"],
+        ["xpath=//div[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07b2ffd4-a49a-4e92-9cfe-caa11547bbd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.overlap .rectangle",
+      "targets": [
+        ["css=.overlap .rectangle", "css:finder"],
+        ["xpath=//div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5324c75-8238-4325-87e2-5981ccbce416",
+      "comment": "",
+      "command": "click",
+      "target": "css=.frame-5",
+      "targets": [
+        ["css=.frame-5", "css:finder"],
+        ["xpath=//img[contains(@src,'https://c.animaapp.com/yksYBIPQ/img/frame-9@2x.png')]", "xpath:img"],
+        ["xpath=//img[@onclick='goBack()']", "xpath:attributes"],
+        ["xpath=//div[5]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2b859909-818e-4220-8044-7d3ef97e8826",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["274c2074-cc14-4787-9467-292799bb8a6d"]
+  }],
+  "urls": ["http://127.0.0.1:5500/App/Homepage/homepage.html"],
+  "plugins": []
+}
