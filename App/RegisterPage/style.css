@@ -1,3 +1,79 @@
+.register-page #password {
+  position: absolute;
+  top: 149px;
+  left: 41px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  border-radius: 20px;
+  width: 283px;
+  height: 69px;
+}
+
+.register-page #email {
+  position: absolute;
+  top: 149px;
+  left: 41px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  border-radius: 20px;
+  width: 283px;
+  height: 69px;
+}
+
+.email-form-input,
+.password-form-input {
+  margin-bottom: 15px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="primeiro-nome"],
+input[type="ultimo-nome"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder,
+input[type="primeiro-nome"]::placeholder,
+input[type="ultimo-nome"]::placeholder {
+  color: #888;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="primeiro-nome"]:focus,
+input[type="ultimo-nome"]:focus {
+  border-color: #007bff; /* Altere esta cor para a desejada */
+  outline: none; /* Remove o outline padrão do navegador */
+}
+
+.error-message {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 0, 0, 0.8); /* Cor de fundo para a mensagem de erro */
+  border-radius: 20px; /* Bordas arredondadas */
+  position: absolute; /* Posicionamento absoluto */
+  top: 20px; /* Distância do topo */
+  left: 50%; /* Centralizar horizontalmente */
+  transform: translateX(-50%); /* Ajustar centralização */
+  z-index: 1000; /* Garantir que esteja sobre outros elementos */
+}
+
 .register-page {
   background-color: #03001c;
   display: flex;
@@ -195,4 +271,11 @@
   height: 39px;
   top: 12px;
   left: 23px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
