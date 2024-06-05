@@ -1,18 +1,7 @@
-.register-page #password {
-  position: absolute;
-  top: 149px;
-  left: 41px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  border-radius: 20px;
-  width: 283px;
-  height: 69px;
-}
-
-.register-page #email {
+.register-page #password,
+.register-page #email,
+.register-page #primeiro-nome,
+.register-page #ultimo-nome {
   position: absolute;
   top: 149px;
   left: 41px;
@@ -33,8 +22,8 @@
 
 input[type="email"],
 input[type="password"],
-input[type="primeiro-nome"],
-input[type="ultimo-nome"] {
+input[name="primeiro-nome"],
+input[name="ultimo-nome"] {
   width: calc(100% - 20px);
   padding: 10px;
   border: 1px solid #ccc;
@@ -46,17 +35,17 @@ input[type="ultimo-nome"] {
 
 input[type="email"]::placeholder,
 input[type="password"]::placeholder,
-input[type="primeiro-nome"]::placeholder,
-input[type="ultimo-nome"]::placeholder {
+input[name="primeiro-nome"]::placeholder,
+input[name="ultimo-nome"]::placeholder {
   color: #888;
 }
 
 input[type="email"]:focus,
 input[type="password"]:focus,
-input[type="primeiro-nome"]:focus,
-input[type="ultimo-nome"]:focus {
-  border-color: #007bff; /* Altere esta cor para a desejada */
-  outline: none; /* Remove o outline padrão do navegador */
+input[name="primeiro-nome"]:focus,
+input[name="ultimo-nome"]:focus {
+  border-color: #007bff;
+  outline: none;
 }
 
 .error-message {
@@ -65,13 +54,13 @@ input[type="ultimo-nome"]:focus {
   font-size: 14px;
   text-align: center;
   padding: 10px;
-  background-color: rgba(255, 0, 0, 0.8); /* Cor de fundo para a mensagem de erro */
-  border-radius: 20px; /* Bordas arredondadas */
-  position: absolute; /* Posicionamento absoluto */
-  top: 20px; /* Distância do topo */
-  left: 50%; /* Centralizar horizontalmente */
-  transform: translateX(-50%); /* Ajustar centralização */
-  z-index: 1000; /* Garantir que esteja sobre outros elementos */
+  background-color: rgba(255, 0, 0, 0.8);
+  border-radius: 20px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
 }
 
 .register-page {
@@ -205,8 +194,8 @@ input[type="ultimo-nome"]:focus {
   font-size: 30px;
   letter-spacing: 0;
   text-align: center;
-  line-height: 65px; /* vertically centers text in the button */
-  cursor: pointer; /* makes the button clickable */
+  line-height: 65px;
+  cursor: pointer;
 }
 
 .register-page .form-primeiro-nome {

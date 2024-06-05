@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <script src="../JS/scripts.js"></script>
     <script type="module" src="register.js" defer></script>
+    <script type="module" src="../perfil/perfil.js" defer></script>
   </head>
   <body>
     <div class="register-page">
@@ -24,15 +25,17 @@
             <div class="rectangle"></div>
             <div class="text-wrapper">Register</div>
             <div class="frame-button">
-              <button id="signup" class="sign-up-button" onclick="login()">
+              <button id="signup" class="sign-up-button" onclick="login(); save();">
                 Sign Up
               </button>
             </div>
             <div class="form-primeiro-nome">
-              <label id= "primeiro-nome" class="text-wrapper-3" for="primeiro-nome">Primeiro nome</label>
+              <label class="text-wrapper-3" for="primeiro-nome">Primeiro nome</label>
+              <input type="text" id="primeiro-nome" name="primeiro-nome" placeholder="Primeiro Nome" required>
             </div>
             <div class="form-ultimo-nome">
-              <label id="utlimo-nome" class="text-wrapper-3" for="ultimo-nome">Ultimo nome</label>
+              <label class="text-wrapper-3" for="ultimo-nome">Ultimo Nome</label>
+              <input type="text" id="ultimo-nome" name="ultimo-nome" placeholder="Ultimo Nome" required>
             </div>
             <div class="email-form-input">
               <label class="text-wrapper-3" for="email">Email</label>
